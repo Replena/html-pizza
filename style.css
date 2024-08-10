@@ -88,9 +88,7 @@ height: 3491px;
 
 .menu {
 width:100%;
-height:9%;
-border: 1px solid black;
-
+height:8%;
 }
 
 .menu ul {
@@ -100,11 +98,9 @@ border: 1px solid black;
   margin: 50px 80px;
   margin-bottom: 50px;
   justify-content:space-around;
-  border: 1px solid black;
   gap: 30px 5px;
 }
 .menu ul li {
-  border: 1px solid black;
   display: flex;
   width: 40%;
   align-items: center;
@@ -118,11 +114,244 @@ font-size: 1.3rem;
 font-weight: 500;
 text-align: left;
 color: black;
-border: 1px solid black;
 padding-left: 7%;
 }
 
 .menu ul li img {
   display: inline-block;
-  border: 1px solid black;
 }
+
+.ilk {
+  background-color: var(--kirmizi);
+  background-image: url(https://s3-alpha-sig.figma.com/img/c436/3ab0/a2144978475fda5e250917960da4ea56?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWQnIKoFTktHlSIIN1fBm1f-QjIfv7E5~Cz68TaWrjpXjWA9lWyhuVUSyJXr-H9zzbb5BPZAumnmBnxPEQMp-~pL0ihSR6-5XkN3~cYpEZNtrndsotnr9Ufwvl4DC0IV02nbUXVei0I6KYEncWtVBW~AJlWGFM1mzcYlhX6QD~NmwUKV-uxrsLSH3LFEiwYJlEt95cGWOfd~1AE2yQamb39aFcFzMhUUtekcg9uFYy13~BO4kBl9kklhtlBdaeotMmJhk65UCiLr~2TtJxwVty3BaDIRmW482Bn6PQLoBTirepYAYex7ibTN5TnY7JvFcSaaBE0DRwHHuPA1G589Pw__);
+  background-size: cover;
+  background-position: 1px;
+  width:422px;
+  height:336px;
+  padding: 14px 49px 44px 49px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+
+.ozel {
+  color: white;
+  font-family: "Quattrocento";
+  font-weight: 700;
+  line-height: 4.5rem;
+  font-size: 5.25rem;
+  padding: 0;
+  margin-top:12%;
+  margin-bottom: 0%;
+  
+}
+
+.position{
+  width: 150%;
+  font-family: "Barlow";
+  font-size: 1.50rem;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+  position:absolute;
+}
+
+.siparis{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Barlow";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color:var(--kirmizi);
+  border: none;
+  margin-top: 21%;
+}
+
+.ikinci {
+  background-image: url(https://s3-alpha-sig.figma.com/img/6166/ed58/d63154ac0f2a8d7ea2d719fc064bc3f6?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8hyRF2XMhml0BH-C59MkUq8cVOa8lDIbbd7tsbmzcPfKYKbUx3g7qY40UDLbGq4-VycJ3qnivqqs8tVs-KEZNOlxXAj8MDlIXSq76b4aZf8XSM6Zv4SOYHlZM4RLNgG0toss3s4SdRko6Wd7aHtXaZLTt2uV0xGa1l4rEc06xuGk9vWRdnQd7QUAkPrze8CnnQnMrlALDdWjLXYyqavI3hzG39ZVkhAsXV08NcOwlV1UZDCId6nvBkvcWK2gRMWNGORIcvwJM4kchThr52f6P-o-zU5jIDppae9XP98TBypRzrOI4G2s1tFlXJVhEW0bn3TXmjHFtLPyrH44rGhog__);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 70%;
+
+  
+  
+  width: 422px;
+  height:270px;
+  padding: 32px 0px 0px 0px;
+  justify-content: space-between;
+  background-color: var(--koyu-gri);
+  padding: 14px 49px 44px 49px;
+  margin: 4% auto;
+  border-radius: 12px;
+  position: relative;
+}
+
+
+
+.hack{
+
+  width: 220px;
+  font-family: "Barlow";
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: left;
+  color: white;
+  margin-top: 10%;
+  position: absolute;
+
+}
+
+.siparis1{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Barlow";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color:var(--kirmizi);
+  border: none;
+  margin-top: 45%;
+}
+
+.ucuncu{
+  background-color: rgba(250, 187, 0, 0.2)!important;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3eca/c553/7e43419d60a8258a07300efc67447fa4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p9ax3K-O0tkMYhrdBI5aXUgiBk3SllBakZottm3lNtP9g8bIwHcH~7MUzO4Ro3bOrc-ZA6LAhhuK-6UC-priYvfMSwmdwQxuCgPjnaKB406ahYT39n89xM6SuH0wf4gOJh1dcb5jTLxKaRdPcvNb7U6N2UwIFnQLQl1axRTTBnwLw9UhfGVB93XriBMi1flQ-jITXpPPBVtFsrGC~cFM4rvzOzHbDi0ndB1vzKlptPGZQKSFNh-2-RoHaf1TlB2f925q7H6P-VdmDtfqTGL7YGNnHG7n8XdJ8ILIbeoQkmHyFcBoy53CMoQs0FgvaZ-VVDqrE7qS~kubIWgZkJ4bTw__),url(https://s3-alpha-sig.figma.com/img/b205/d24a/40ed8009ff8742ced4cebd1f21b6c436?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHfy-ccxxUXWNwffNtjt-62KMix74j-c7sq4AVGS5rlrfZAMkOABTj8HCRf0DcdRFxfAkZFjisMRviTFxDiyEQ1wrzawM5flxORALVys3IriyhfUIle~wWOnA7ApCX9rFBcmRWU3WFESpTF1sm-YLTw9j9mPVOSHhGVkihE-WEOf0KKXSuq~lMFvx8dzjkwakiIX~1hioGkDec4JF7n6kTsPKqjqEBEm45itzr2lljlWOrgLMjbGdJFSf~t39BbqmQJcypIzt0I-uHV9Y-HnqgauJuA0HMBxa3cJ8DLgja6vXqKghq2myHggxI78CBptRhXmiF38e7GXJO3p9XQ4xQ__);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 460px,cover;
+  background-position-y: 60px,0px;
+  background-position-x: 110%,0px;
+  width: 422px;
+  height:270px;
+  padding: 32px 0px 0px 0px;
+  justify-content: space-between;
+background-color: var(--sari);
+  padding: 14px 49px 44px 49px;
+  margin: 4% auto;
+  border-radius: 12px;
+  position: relative;
+}
+
+.cook{
+  width: 254px;
+  height: 88px;
+  font-family: "Barlow";
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: left;
+  color: black;
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 9%;
+  letter-spacing: 1px;
+
+}
+
+span{
+  color: var(--kirmizi);
+  font-weight: 700;
+}
+
+.siparis2{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Barlow";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color:var(--kirmizi);
+  border: none;
+  margin-top: 41%;
+}
+
+.dort{
+
+  width: 395px;
+  height:229px;
+  margin:12% auto;
+  text-align: center;
+
+}
+
+.encok{
+  width: 395px;
+  height: 46px;
+  font-family: Satisfy;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: center;
+  color: var(--kirmizi);
+}
+
+.aciktiran{
+  margin:  24% auto;
+  width: 308px;
+  height: 56px;
+  font-family: "Barlow";
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.ikincimenu {
+  width:100%;
+  height:8%;
+  }
+  
+  .ikincimenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 50px 80px;
+    margin-bottom: 50px;
+    justify-content:space-around;
+    gap: 30px 5px;
+  }
+  .ikincimenu ul li {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .ikincimenu ul li a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+  padding-left: 7%;
+  }
+  
+  .ikincimenu ul li img {
+    display: inline-block;
+  }
+
+  .ikincimenu li:hover{
+    transition: 0.3s;
+    width: 166px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50px;
+    border-right-width: auto;
+    background-color: #292929;
+  }
+  .ikincimenu li:hover a{
+  color: white;
+  }
+  
