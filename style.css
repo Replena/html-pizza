@@ -230,7 +230,6 @@ padding-left: 7%;
   height:270px;
   padding: 32px 0px 0px 0px;
   justify-content: space-between;
-background-color: var(--sari);
   padding: 14px 49px 44px 49px;
   margin: 4% auto;
   border-radius: 12px;
@@ -355,3 +354,97 @@ span{
   color: white;
   }
   
+.ikipizzabiham {
+
+  width: 420px;
+  height:1,609px;
+  margin: auto;
+  text-align: center;
+}
+
+.foto1{
+
+  width: 356px;
+  height: 372px;
+  
+
+}
+
+.img-div{
+  margin: 7px auto;
+  width: 356px;
+}
+
+.term{
+  font-family: Barlow;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 5%;
+margin-bottom: 0;
+}
+
+.term-p{
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+justify-content: space-between;
+  margin-bottom: 9;
+}
+
+.para{
+  font-weight: bolder;
+  font-size: larger;
+  transform: translateY(-4px);
+}
+
+.ikiyü{
+margin-left: 47%;
+}
+
+.foto2{
+  width: 356px;
+  height: 372px;
+  margin-top: 15%;
+}
+
+footer{
+width: 540px;
+height: 1291px;
+background-color: var(--koyu-gri);
+color: white;
+
+}
+
+.teknolo{
+margin:10%
+}
+
+.teknop{
+  width: 251px;
+  height: 76.9px;
+  font-family: "Londrina Solid";
+  font-size: 3.3rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  text-align: left;
+  border: 1px solid white;
+  position: relative;
+  
+}
+
+.teknolo ul li {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.teknolo ul li a{
+  color: white;
+  border: 1px solid white;
+}
+
+.teknolo img{
+  
+}
