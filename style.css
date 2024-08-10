@@ -6,10 +6,6 @@
   --bej: #FAF7F2;
 }
 
-* {
-
-}
-
 body{
 font-size: 16px;
 }
@@ -410,41 +406,136 @@ margin-left: 47%;
 }
 
 footer{
+  margin-top: 9%;
 width: 540px;
 height: 1291px;
 background-color: var(--koyu-gri);
 color: white;
 
 }
+.footerbolum{
+  padding: 4% 0 0 10%;
 
+}
 .teknolo{
-margin:10%
+
+margin: auto;
+
+
 }
 
 .teknop{
-  width: 251px;
-  height: 76.9px;
+  width: 10px;
   font-family: "Londrina Solid";
   font-size: 3.3rem;
   font-weight: 400;
   line-height: 3.3rem;
   text-align: left;
-  border: 1px solid white;
-  position: relative;
-  
-}
 
-.teknolo ul li {
-  list-style-type: none;
-  padding: 0;
 
-}
-
-.teknolo ul li a{
-  color: white;
-  border: 1px solid white;
 }
 
 .teknolo img{
-  
+width: 28px;
+height: 28px;
+}
+
+.teknolo address{
+  transform: translateY(-15%);
+
+}
+
+.teknolo address li {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 6%; 
+}
+
+.teknolo address li a{
+  color: white;
+  margin-left: 15px;
+  width: 200px;
+  font-family: "Barlow";
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 2rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.ho{
+width: 98.39px;
+height: 32px;
+font-family: Barlow;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 2rem;
+text-align: left;
+}
+
+.gg{
+list-style-type: none;
+width: 221px;
+height: 242.34px;
+padding: 2px 0px 0.5rem 0px;
+}
+
+.gg li{
+
+  height: 2rem;
+  font-family: Barlow;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.ins{
+width: 347px;
+height: 2rem;
+font-family: Barlow;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 2rem;
+text-align: left;
+transform: translateY(50%);
+}
+
+.sonlar{
+width:400px;
+height: 256px;
+}
+
+.sonlar img{
+height: 105px;
+border-radius: 3px;
+margin: 13px 9px 2px 0px;
+}
+
+.laststand{
+  width: 412px;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px groove rgb(80, 74, 74);
+  padding-bottom: 15px;
+}
+
+.novissime{
+width: 445.08px;
+height: 2rem;
+font-family: Barlow;
+font-size: 1.1rem;
+font-weight: 200;
+line-height: 2rem;
+text-align: left;
+transform: translateY(108px);
+}
+
+.laststand i{
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(130px);
+  font-size: 2rem;
 }
