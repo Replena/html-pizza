@@ -8,13 +8,12 @@
 
 body{
 font-size: 16px;
+width:96%;
+margin:0;
+padding:0;
 }
 
 header{
-width: 585.13px;
-height: 1080.53px;
-margin:0;
-padding: 0;
 background-color: var(--kirmizi);
 display: flex;
 justify-content: center;
@@ -23,21 +22,12 @@ background-repeat: no-repeat;
 background-position: center 120%;
 }
 
-.nav-header {
-width: 398px;
-height: 854px;
-margin-left: 5rem;
-margin-right: 5rem;
-}
-
 #tekno {
-width: 100%;
-height: 7%;
+text-align: center;
 color: var(--bej);
 font-family: "Roboto Condensed";
 font-weight: 900;
-text-align: center;
-margin-top: 30%;
+margin-top: 10%;
 margin-bottom: 2%;
 font-size: 3rem;
 }
@@ -45,9 +35,9 @@ font-size: 3rem;
 
 #kod {
 font-family: "Roboto Condensed";
-font-size: 86px;
+font-size: 5.375rem;
 font-weight: 300;
-line-height: 92px;
+line-height: 5.75rem;
 letter-spacing: 1.5px;
 text-align: center;
 color: var(--bej);
@@ -56,8 +46,8 @@ margin-top: 10%;
 }
 
 #aciktim{
-width: 193.47px;
-height: 52px;
+margin:0 auto;
+padding: 10px 30px;
 background-color: var(--sari);
 color: var(#292929);
 font-family: Barlow;
@@ -67,37 +57,14 @@ border-radius: 50px;
 border: none;
 }
 
-.aci{
-  display: flex;
-  justify-content: center;
-  
-}
-
-.orta {
-width: 585.13px;
-height: 3491px;
-}
-
-.menu {
-width:100%;
-height:8%;
-}
 
 .menu ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 50px 80px;
-  margin-bottom: 50px;
-  justify-content:space-around;
+  justify-content:space-between;
   gap: 30px 5px;
 }
-.menu ul li {
-  display: flex;
-  width: 40%;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 
 .menu ul li a {
 text-decoration: none;
@@ -106,20 +73,18 @@ font-size: 1.3rem;
 font-weight: 500;
 text-align: left;
 color: black;
-padding-left: 7%;
 }
 
-.menu ul li img {
-  display: inline-block;
-}
-
-.menu li:hover{
+.menu ul li {
+  flex-basis: 150px;
+  display: flex;
+  align-items: center;
   transition: 0.3s;
-  width: 166px;
-  height: 50px;
   padding: 12px;
   border-radius: 50px;
-  border-right-width: auto;
+}
+
+.menu  ul li:hover{
   background-color: #292929;
 }
 .menu li:hover a{
@@ -132,8 +97,6 @@ color: white;
   background-image: url(https://s3-alpha-sig.figma.com/img/c436/3ab0/a2144978475fda5e250917960da4ea56?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWQnIKoFTktHlSIIN1fBm1f-QjIfv7E5~Cz68TaWrjpXjWA9lWyhuVUSyJXr-H9zzbb5BPZAumnmBnxPEQMp-~pL0ihSR6-5XkN3~cYpEZNtrndsotnr9Ufwvl4DC0IV02nbUXVei0I6KYEncWtVBW~AJlWGFM1mzcYlhX6QD~NmwUKV-uxrsLSH3LFEiwYJlEt95cGWOfd~1AE2yQamb39aFcFzMhUUtekcg9uFYy13~BO4kBl9kklhtlBdaeotMmJhk65UCiLr~2TtJxwVty3BaDIRmW482Bn6PQLoBTirepYAYex7ibTN5TnY7JvFcSaaBE0DRwHHuPA1G589Pw__);
   background-size: cover;
   background-position: 1px;
-  width:422px;
-  height:336px;
   padding: 14px 49px 44px 49px;
   margin: 0 auto;
   border-radius: 12px;
@@ -146,13 +109,11 @@ color: white;
   font-weight: 700;
   line-height: 4.5rem;
   font-size: 5.25rem;
-  padding: 0;
   margin-top:12%;
   margin-bottom: 0%;
 }
 
 .position{
-  width: 150%;
   font-family: "Barlow";
   font-size: 1.50rem;
   font-weight: 600;
@@ -162,8 +123,6 @@ color: white;
 }
 
 .siparis{
-  width: 150px;
-  height: 50px;
   border-radius: 50px;
   font-family: "Barlow";
   font-size: 1rem;
@@ -180,9 +139,6 @@ color: white;
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 70%;
-  width: 422px;
-  height:270px;
-  padding: 32px 0px 0px 0px;
   justify-content: space-between;
   background-color: var(--koyu-gri);
   padding: 14px 49px 44px 49px;
@@ -192,7 +148,7 @@ color: white;
 }
 
 .hack{
-  width: 220px;
+  width: 50%;
   font-family: "Barlow";
   font-size: 2.3rem;
   font-weight: 600;
@@ -205,8 +161,7 @@ color: white;
 }
 
 .siparis1{
-  width: 150px;
-  height: 50px;
+
   border-radius: 50px;
   font-family: "Barlow";
   font-size: 1rem;
@@ -219,14 +174,12 @@ color: white;
 }
 
 .ucuncu{
-  background-color: rgba(250, 187, 0, 0.2)!important;
+  background-color: rgba(250, 187, 0, 0.2);
   background-image: url(https://s3-alpha-sig.figma.com/img/3eca/c553/7e43419d60a8258a07300efc67447fa4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p9ax3K-O0tkMYhrdBI5aXUgiBk3SllBakZottm3lNtP9g8bIwHcH~7MUzO4Ro3bOrc-ZA6LAhhuK-6UC-priYvfMSwmdwQxuCgPjnaKB406ahYT39n89xM6SuH0wf4gOJh1dcb5jTLxKaRdPcvNb7U6N2UwIFnQLQl1axRTTBnwLw9UhfGVB93XriBMi1flQ-jITXpPPBVtFsrGC~cFM4rvzOzHbDi0ndB1vzKlptPGZQKSFNh-2-RoHaf1TlB2f925q7H6P-VdmDtfqTGL7YGNnHG7n8XdJ8ILIbeoQkmHyFcBoy53CMoQs0FgvaZ-VVDqrE7qS~kubIWgZkJ4bTw__),url(https://s3-alpha-sig.figma.com/img/b205/d24a/40ed8009ff8742ced4cebd1f21b6c436?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHfy-ccxxUXWNwffNtjt-62KMix74j-c7sq4AVGS5rlrfZAMkOABTj8HCRf0DcdRFxfAkZFjisMRviTFxDiyEQ1wrzawM5flxORALVys3IriyhfUIle~wWOnA7ApCX9rFBcmRWU3WFESpTF1sm-YLTw9j9mPVOSHhGVkihE-WEOf0KKXSuq~lMFvx8dzjkwakiIX~1hioGkDec4JF7n6kTsPKqjqEBEm45itzr2lljlWOrgLMjbGdJFSf~t39BbqmQJcypIzt0I-uHV9Y-HnqgauJuA0HMBxa3cJ8DLgja6vXqKghq2myHggxI78CBptRhXmiF38e7GXJO3p9XQ4xQ__);
   background-repeat: no-repeat, no-repeat;
   background-size: 460px,cover;
   background-position-y: 60px,0px;
   background-position-x: 110%,0px;
-  width: 422px;
-  height:270px;
   padding: 32px 0px 0px 0px;
   justify-content: space-between;
   padding: 14px 49px 44px 49px;
@@ -236,8 +189,7 @@ color: white;
 }
 
 .cook{
-  width: 254px;
-  height: 88px;
+  width: 50%;
   font-family: "Barlow";
   font-size: 2.5rem;
   font-weight: 600;
@@ -258,8 +210,6 @@ span{
 }
 
 .siparis2{
-  width: 150px;
-  height: 50px;
   border-radius: 50px;
   font-family: "Barlow";
   font-size: 1rem;
@@ -271,18 +221,8 @@ span{
   margin-top: 41%;
 }
 
-.dort{
-
-  width: 395px;
-  height:229px;
-  margin:12% auto;
-  text-align: center;
-
-}
 
 .encok{
-  width: 395px;
-  height: 46px;
   font-family: Satisfy;
   font-size: 2.2rem;
   font-weight: 400;
@@ -293,22 +233,14 @@ span{
 
 .aciktiran{
   margin:  24% auto;
-  width: 308px;
-  height: 56px;
+  width:50%;
   font-family: "Barlow";
   font-size: 2.6rem;
   font-weight: 600;
   line-height: 3.5rem;
-  display: flex;
-  align-items: center;
-
+  text-align: center;
 }
 
-.ikincimenu {
-  width:100%;
-  height:8%;
-  }
-  
   .ikincimenu ul {
     display: flex;
     flex-wrap: wrap;
@@ -318,12 +250,14 @@ span{
     justify-content:space-around;
     gap: 30px 5px;
   }
+  
   .ikincimenu ul li {
     display: flex;
     width: 40%;
     align-items: center;
     flex-wrap: wrap;
-
+    transition: 0.3s;
+    border-radius: 50px;
   }
   
   .ikincimenu ul li a {
@@ -341,12 +275,7 @@ span{
   }
 
   .ikincimenu li:hover{
-    transition: 0.3s;
-    width: 166px;
-    height: 50px;
     padding: 12px;
-    border-radius: 50px;
-    border-right-width: auto;
     background-color: #292929;
   }
   .ikincimenu li:hover a{
@@ -354,20 +283,17 @@ span{
   }
   
 .ikipizzabiham {
-  width: 420px;
-  height:1,609px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
 .foto1{
-  width: 356px;
-  height: 372px;
+  width: 70%
 }
 
 .img-div{
   margin: 7px auto;
-  width: 356px;
+  width: 70%;
 }
 
 .term{
@@ -376,16 +302,15 @@ span{
   font-weight: 600;
   text-align: left;
   margin-top: 5%;
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .term-p{
   font-family: Barlow;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   display: flex;
-justify-content: space-between;
-  margin-bottom: 9;
+  justify-content: space-between;
 }
 
 .para{
@@ -399,15 +324,11 @@ margin-left: 47%;
 }
 
 .foto2{
-  width: 356px;
-  height: 372px;
   margin-top: 15%;
 }
 
 footer{
 margin-top: 9%;
-width: 540px;
-height: 1291px;
 background-color: var(--koyu-gri);
 color: white;
 }
@@ -416,12 +337,10 @@ color: white;
   padding: 4% 0 0 10%;
 }
 
-.teknolo{
-margin: auto;
-}
+
 
 .teknop{
-  width: 10px;
+  width: 15px;
   font-family: C;
   font-size: 3.3rem;
   font-weight: 400;
@@ -430,13 +349,11 @@ margin: auto;
 }
 
 .teknolo img{
-width: 28px;
-height: 28px;
+width: 4%;
+height: auto;
 }
 
-.teknolo address{
-  transform: translateY(-15%);
-}
+
 
 .teknolo address li {
   display: flex;
@@ -447,7 +364,6 @@ height: 28px;
 .teknolo address li a{
   color: white;
   margin-left: 15px;
-  width: 200px;
   font-family: "Barlow";
   font-size: 1.1rem;
   font-weight: 200;
@@ -457,8 +373,6 @@ height: 28px;
 }
 
 .ho{
-width: 98.39px;
-height: 32px;
 font-family: Barlow;
 font-size: 1.5rem;
 font-weight: 500;
@@ -468,13 +382,10 @@ text-align: left;
 
 .gg{
 list-style-type: none;
-width: 221px;
-height: 242.34px;
 padding: 2px 0px 0.5rem 0px;
 }
 
 .gg li{
-  height: 2rem;
   font-family: Barlow;
   font-size: 1.1rem;
   font-weight: 400;
@@ -484,8 +395,6 @@ padding: 2px 0px 0.5rem 0px;
 }
 
 .ins{
-width: 347px;
-height: 2rem;
 font-family: Barlow;
 font-size: 1.5rem;
 font-weight: 500;
@@ -495,19 +404,15 @@ transform: translateY(50%);
 }
 
 .sonlar{
-width:400px;
-height: 256px;
+width:80%
 }
 
 .sonlar img{
-height: 105px;
 border-radius: 3px;
 margin: 13px 9px 2px 0px;
 }
 
 .laststand{
-  width: 412px;
-  height: 69px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px groove rgb(80, 74, 74);
@@ -515,8 +420,6 @@ margin: 13px 9px 2px 0px;
 }
 
 .novissime{
-width: 445.08px;
-height: 2rem;
 font-family: Barlow;
 font-size: 1.1rem;
 font-weight: 200;
