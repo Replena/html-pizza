@@ -22,19 +22,23 @@ display: flex;
 justify-content: center;
 margin:0 auto;
 background-size: 200%;
-height: 100vh;
+border: none;
+height: 60vh;
 }
 
 .backgr{
 background-image: url(https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPVNiteSnTrTt~99xEvdlNzBqt5Tkz9XP46evqjiXPa9K-VytNbNfD1mOcQ4jRxnCM016SVRJxiRkUGSczgg6knFSQeyvuZ7QZqA7XwZx7AnM3IY9VvrJ~rMmNdYGgBtVBTN9tF6p0oeQWko7BB0GjyCPn2OBjIhh2MGC~9tBpQnpiOZS4BllmULjpwQ4Ik49O5K1zCDFMLlopjrBOOgbvTRb-hqV~2GfHKEzWqTdGie8AZ5UAg9hkJH60SEebg~KeD8-M3X7oZCTfdKF0JtGyGbw9kcXylSVLnNpqUHghrPXbf0E1LxFcprbRyti9xK~PCSdyvqxozYwo626IyV4A__);
-height:37vh;
+height:40vh;
+background-color: var(--kirmizi)!important;
 background-repeat: no-repeat;
-background-position: center 5%;
+border: none;
+background-position: center -40%;
 background-color:var(--kirmzi);
-background-size: 170%;
+background-size: 250%;
+
 }
 .tekno {
-margin-top: 8vh;
+margin: 8vh auto;
 display: flex;
 flex: 1;
 }
@@ -59,11 +63,10 @@ margin:7% auto;
   display: flex;
   justify-content: center;
   align-content: center;
-  -ms-transform-origin-y: 10%;
 }
 
 #aciktim{
-margin:0 auto;
+margin:auto auto;
 background-color: var(--sari);
 color: var(#292929);
 font-family: Barlow;
@@ -139,7 +142,7 @@ font-size:16px;
   margin: 2% 4%;
   padding:1% 8% 8%;
   border-radius: 12px;
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -176,7 +179,7 @@ font-size:16px;
   margin:7% 4%;
   padding:1% 30% 15% 8%;
   border-radius: 12px;
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -227,13 +230,14 @@ span{
   margin:0 13%;
 }
 
+
 .ikincimenu ul {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
   gap: 20px 0;
   padding: 0 7%;
-  margin: 4% 0;
+  margin: 5px 0 0 0;
 }
 
 
@@ -401,6 +405,7 @@ padding-right: 3%;
 
 .sonlar{
   margin-bottom: 14%;
+  padding-right: 0
 }
 .laststand{
   border-top: 1px groove rgb(80, 74, 74);
