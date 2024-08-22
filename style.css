@@ -6,10 +6,14 @@
   --bej: #FAF7F2;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0 auto;
   padding: 0;
-  max-width:600px;
+  max-width:576px;
   width: 100%;
   overflow-x: hidden;
   font-size:16px;
@@ -17,52 +21,70 @@ body, html {
 }
 
 header{
-background-color: var(--kirmizi);
+  background: var(--kirmizi);
+  margin: 0;
+  height: 70vh;
+  padding: 15% 10% 10%;
+  z-index: 999;
+}
+
+.headerimg-container{
+  height: 30vh;
+  background-color: var(--kirmizi);
+  position: relative;
+  overflow: hidden;
+}
+
+#headerimg{
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+  position: absolute;
+  top:-5vh;
+}
+
+.tekno {
 display: flex;
+}
+
+
+.nav-header{
+padding:0;
+display:flex;
+flex-direction: column;
+margin:2% 5%;
+row-gap: 1rem;
 justify-content: center;
-margin:0 auto;
-background-size: 200%;
-border: none;
 height: 60vh;
 }
 
-.backgr{
-background-image: url(https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPVNiteSnTrTt~99xEvdlNzBqt5Tkz9XP46evqjiXPa9K-VytNbNfD1mOcQ4jRxnCM016SVRJxiRkUGSczgg6knFSQeyvuZ7QZqA7XwZx7AnM3IY9VvrJ~rMmNdYGgBtVBTN9tF6p0oeQWko7BB0GjyCPn2OBjIhh2MGC~9tBpQnpiOZS4BllmULjpwQ4Ik49O5K1zCDFMLlopjrBOOgbvTRb-hqV~2GfHKEzWqTdGie8AZ5UAg9hkJH60SEebg~KeD8-M3X7oZCTfdKF0JtGyGbw9kcXylSVLnNpqUHghrPXbf0E1LxFcprbRyti9xK~PCSdyvqxozYwo626IyV4A__);
-height:40vh;
-background-color: var(--kirmizi)!important;
-background-repeat: no-repeat;
-border: none;
-background-position: center -40%;
-background-color:var(--kirmzi);
-background-size: 250%;
-
-}
-.tekno {
-margin: 8vh auto;
-display: flex;
-flex: 1;
-}
-
 .tekno svg{
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
+margin:0;
+padding: 0;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 #kod {
 font-family: "Roboto Condensed";
 font-weight: 200;
-font-size: 70px;
-width: 70%;
+font-size: 8vh;
 text-align: center;
+display: flex;
+justify-content: center;
 color: var(--bej);
-margin:7% auto;
+margin:0;
+padding: 0;
+
 }
 .aci{
   display: flex;
   justify-content: center;
   align-content: center;
+  margin:0;
+  padding: 0;
+  z-index: 99;
 }
 
 #aciktim{
@@ -73,8 +95,8 @@ font-family: Barlow;
 font-weight: 500;
 border-radius: 50px;
 border: none;
-padding: 2% 7%;
-font-size:16px;
+padding: 4% 15%;
+font-size:1rem;
 }
 
 .ilk {
@@ -94,18 +116,13 @@ font-size:16px;
   gap: 10px;
 }
 
-.ilkyazi{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* İçerikleri sola hizalayın */
-  gap: 10px; /* Elemanlar arasında boşluk bırakın */
-}
+
 
 .ozel {
 
   color: white;
   font-family: "Quattrocento";
-  font-size: 65px;
+  font-size: 5vh;
   font-weight: 600;
   margin-bottom: 1px;
   margin-top: 0;
@@ -114,7 +131,7 @@ font-size:16px;
 
 .position{
   font-family: "Barlow";
-  font-size: 19px;
+  font-size: 2vh;
   font-weight: 400;
   text-align: left;
   color: white;
@@ -230,6 +247,10 @@ span{
   margin:0 13%;
 }
 
+.ikincimenu{
+  margin-top: 8%;
+  margin-bottom:8%;
+}
 
 .ikincimenu ul {
   display: flex;
@@ -401,11 +422,17 @@ padding-top: 5%;
 border-radius: 3px;
 margin-bottom: 4%;
 padding-right: 3%;
+flex:0 0 33%;
+
 }
 
 .sonlar{
   margin-bottom: 14%;
-  padding-right: 0
+  padding-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+
 }
 .laststand{
   border-top: 1px groove rgb(80, 74, 74);
