@@ -99,22 +99,6 @@ padding: 4% 15%;
 font-size:1rem;
 }
 
-.ilk {
-  background-color: var(--kirmizi);
-  background-image: url(https://s3-alpha-sig.figma.com/img/c436/3ab0/a2144978475fda5e250917960da4ea56?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWQnIKoFTktHlSIIN1fBm1f-QjIfv7E5~Cz68TaWrjpXjWA9lWyhuVUSyJXr-H9zzbb5BPZAumnmBnxPEQMp-~pL0ihSR6-5XkN3~cYpEZNtrndsotnr9Ufwvl4DC0IV02nbUXVei0I6KYEncWtVBW~AJlWGFM1mzcYlhX6QD~NmwUKV-uxrsLSH3LFEiwYJlEt95cGWOfd~1AE2yQamb39aFcFzMhUUtekcg9uFYy13~BO4kBl9kklhtlBdaeotMmJhk65UCiLr~2TtJxwVty3BaDIRmW482Bn6PQLoBTirepYAYex7ibTN5TnY7JvFcSaaBE0DRwHHuPA1G589Pw__);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 85%;
-  margin: 5% 4%;
-  padding: 5% 8%;
-  border-radius: 12px;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 10px;
-}
 
 
 
@@ -139,6 +123,14 @@ font-size:1rem;
   padding: 2% 2%;
 }
 
+.hack{
+  font-family: "Barlow";
+  font-size: 3vh;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+  padding-right: 40%;
+}
 .siparis{
   border-radius: 50px;
   font-family: "Barlow";
@@ -149,7 +141,17 @@ font-size:1rem;
   color:var(--kirmizi);
   border: none;
 }
-
+.ilk {
+  background-color: var(--kirmizi);
+  background-image: url(https://s3-alpha-sig.figma.com/img/c436/3ab0/a2144978475fda5e250917960da4ea56?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWQnIKoFTktHlSIIN1fBm1f-QjIfv7E5~Cz68TaWrjpXjWA9lWyhuVUSyJXr-H9zzbb5BPZAumnmBnxPEQMp-~pL0ihSR6-5XkN3~cYpEZNtrndsotnr9Ufwvl4DC0IV02nbUXVei0I6KYEncWtVBW~AJlWGFM1mzcYlhX6QD~NmwUKV-uxrsLSH3LFEiwYJlEt95cGWOfd~1AE2yQamb39aFcFzMhUUtekcg9uFYy13~BO4kBl9kklhtlBdaeotMmJhk65UCiLr~2TtJxwVty3BaDIRmW482Bn6PQLoBTirepYAYex7ibTN5TnY7JvFcSaaBE0DRwHHuPA1G589Pw__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 85%;
+  margin: 5% 4%;
+  padding: 5% 8%;
+  border-radius: 12px;
+  height: 30vh;
+}
 .ikinci {
   background-image: url(https://s3-alpha-sig.figma.com/img/6166/ed58/d63154ac0f2a8d7ea2d719fc064bc3f6?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8hyRF2XMhml0BH-C59MkUq8cVOa8lDIbbd7tsbmzcPfKYKbUx3g7qY40UDLbGq4-VycJ3qnivqqs8tVs-KEZNOlxXAj8MDlIXSq76b4aZf8XSM6Zv4SOYHlZM4RLNgG0toss3s4SdRko6Wd7aHtXaZLTt2uV0xGa1l4rEc06xuGk9vWRdnQd7QUAkPrze8CnnQnMrlALDdWjLXYyqavI3hzG39ZVkhAsXV08NcOwlV1UZDCId6nvBkvcWK2gRMWNGORIcvwJM4kchThr52f6P-o-zU5jIDppae9XP98TBypRzrOI4G2s1tFlXJVhEW0bn3TXmjHFtLPyrH44rGhog__);
   background-repeat: no-repeat;
@@ -160,33 +162,7 @@ font-size:1rem;
   padding:1% 8% 8%;
   border-radius: 12px;
   height: 25vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 10;
 }
-
-.hack{
-  font-family: "Barlow";
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-align: left;
-  color: white;
-  padding-right: 40%;
-}
-
-.siparis1{
-  border-radius: 50px;
-  font-family: "Barlow";
-  font-size: 10px;
-  font-weight: 600;
-  padding: 4% 7%;
-  text-align: center;
-  color:var(--kirmizi);
-  border: none;
-}
-
 .ucuncu{
   background-color: rgba(250, 187, 0, 0.2);
   background-image: url(https://s3-alpha-sig.figma.com/img/3eca/c553/7e43419d60a8258a07300efc67447fa4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p9ax3K-O0tkMYhrdBI5aXUgiBk3SllBakZottm3lNtP9g8bIwHcH~7MUzO4Ro3bOrc-ZA6LAhhuK-6UC-priYvfMSwmdwQxuCgPjnaKB406ahYT39n89xM6SuH0wf4gOJh1dcb5jTLxKaRdPcvNb7U6N2UwIFnQLQl1axRTTBnwLw9UhfGVB93XriBMi1flQ-jITXpPPBVtFsrGC~cFM4rvzOzHbDi0ndB1vzKlptPGZQKSFNh-2-RoHaf1TlB2f925q7H6P-VdmDtfqTGL7YGNnHG7n8XdJ8ILIbeoQkmHyFcBoy53CMoQs0FgvaZ-VVDqrE7qS~kubIWgZkJ4bTw__),url(https://s3-alpha-sig.figma.com/img/b205/d24a/40ed8009ff8742ced4cebd1f21b6c436?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHfy-ccxxUXWNwffNtjt-62KMix74j-c7sq4AVGS5rlrfZAMkOABTj8HCRf0DcdRFxfAkZFjisMRviTFxDiyEQ1wrzawM5flxORALVys3IriyhfUIle~wWOnA7ApCX9rFBcmRWU3WFESpTF1sm-YLTw9j9mPVOSHhGVkihE-WEOf0KKXSuq~lMFvx8dzjkwakiIX~1hioGkDec4JF7n6kTsPKqjqEBEm45itzr2lljlWOrgLMjbGdJFSf~t39BbqmQJcypIzt0I-uHV9Y-HnqgauJuA0HMBxa3cJ8DLgja6vXqKghq2myHggxI78CBptRhXmiF38e7GXJO3p9XQ4xQ__);
@@ -197,17 +173,18 @@ font-size:1rem;
   padding:1% 30% 15% 8%;
   border-radius: 12px;
   height: 25vh;
+}
+.displayf{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  gap: 10;
+  gap: 10px;
 }
-
 
 .cook{
   font-family: "Barlow";
-  font-size: 1.6rem;
+  font-size: 3vh;
   font-weight: 600;
   color: black;
 }
@@ -217,16 +194,6 @@ span{
   font-weight: 700;
 }
 
-.siparis2{
-  border-radius: 50px;
-  font-family: "Barlow";
-  font-size: 10px;
-  font-weight: 600;
-  padding: 4% 7%;
-  text-align: center;
-  color:var(--kirmizi);
-  border: none;
-}
 
 
 .encok{
@@ -423,7 +390,7 @@ border-radius: 3px;
 margin-bottom: 4%;
 padding-right: 3%;
 flex:0 0 33%;
-
+width: 33%;
 }
 
 .sonlar{
