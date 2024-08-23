@@ -136,7 +136,7 @@ font-size:1rem;
   font-family: "Barlow";
   font-size: 10px;
   font-weight: 600;
-  padding: 4% 7%;
+  padding: 4.1% 8%;
   text-align: center;
   color:var(--kirmizi);
   border: none;
@@ -167,19 +167,19 @@ font-size:1rem;
   background-color: rgba(250, 187, 0, 0.2);
   background-image: url(https://s3-alpha-sig.figma.com/img/3eca/c553/7e43419d60a8258a07300efc67447fa4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p9ax3K-O0tkMYhrdBI5aXUgiBk3SllBakZottm3lNtP9g8bIwHcH~7MUzO4Ro3bOrc-ZA6LAhhuK-6UC-priYvfMSwmdwQxuCgPjnaKB406ahYT39n89xM6SuH0wf4gOJh1dcb5jTLxKaRdPcvNb7U6N2UwIFnQLQl1axRTTBnwLw9UhfGVB93XriBMi1flQ-jITXpPPBVtFsrGC~cFM4rvzOzHbDi0ndB1vzKlptPGZQKSFNh-2-RoHaf1TlB2f925q7H6P-VdmDtfqTGL7YGNnHG7n8XdJ8ILIbeoQkmHyFcBoy53CMoQs0FgvaZ-VVDqrE7qS~kubIWgZkJ4bTw__),url(https://s3-alpha-sig.figma.com/img/b205/d24a/40ed8009ff8742ced4cebd1f21b6c436?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHfy-ccxxUXWNwffNtjt-62KMix74j-c7sq4AVGS5rlrfZAMkOABTj8HCRf0DcdRFxfAkZFjisMRviTFxDiyEQ1wrzawM5flxORALVys3IriyhfUIle~wWOnA7ApCX9rFBcmRWU3WFESpTF1sm-YLTw9j9mPVOSHhGVkihE-WEOf0KKXSuq~lMFvx8dzjkwakiIX~1hioGkDec4JF7n6kTsPKqjqEBEm45itzr2lljlWOrgLMjbGdJFSf~t39BbqmQJcypIzt0I-uHV9Y-HnqgauJuA0HMBxa3cJ8DLgja6vXqKghq2myHggxI78CBptRhXmiF38e7GXJO3p9XQ4xQ__);
   background-repeat: no-repeat, no-repeat;
-  background-size:64%, 100%;
-  background-position:90% 30%, 80%;
+  background-size:64%, 170%;
+  background-position:90% 30%, bottom;
   margin:7% 4%;
-  padding:1% 30% 15% 8%;
+  padding:1% 40% 15% 8%;
   border-radius: 12px;
   height: 25vh;
 }
+
 .displayf{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  gap: 10px;
 }
 
 .cook{
@@ -211,7 +211,7 @@ span{
   font-weight: 600;
   line-height: 3.5rem;
   text-align: center;
-  margin:0 13%;
+  margin:0;
 }
 
 .ikincimenu{
@@ -302,8 +302,12 @@ margin-left: 47%;
 
 .foto2{
   margin-top: 15%;
+  width: 70%
 }
-
+.foto3{
+  margin-top: 15%;
+  width: 70%
+}
 footer{
 margin-top: 9%;
 background-color: var(--koyu-gri);
